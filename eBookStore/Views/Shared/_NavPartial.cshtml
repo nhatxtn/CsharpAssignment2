@@ -1,0 +1,21 @@
+﻿<ul class="navbar-nav flex-grow-1">
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </li>
+    @if (User.Identity.IsAuthenticated)
+    {
+        var roleId = ViewData["RoleId"] as int?;
+        if (roleId.HasValue && roleId.Value == 2)
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Author" asp-action="Index">Author</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Publisher" asp-action="Index">Publisher</a>
+            </li>
+        }
+    }
+</ul>

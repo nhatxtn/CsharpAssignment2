@@ -1,0 +1,40 @@
+﻿@model IEnumerable<BusinessObject.Author>
+
+@{
+    ViewData["Title"] = "Author List";
+}
+
+<h1>Author List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Author Id</th>
+            <th>Last Name</th>
+            <th>First Name</th> 
+            <th>City</th>
+            <th>Email Address</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var author in Model)
+        {
+            <tr>
+                <td>@author.AuthorId</td>
+                <td>@author.LastName</td>
+                <td>@author.FirstName</td>
+                <td>@author.City</td>
+                <td>@author.EmailAddress</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = author.AuthorId }) |
+                    @Html.ActionLink("Details", "Details", new { id = author.AuthorId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = author.AuthorId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

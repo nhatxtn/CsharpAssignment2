@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@if (HttpContextAccessor.HttpContext.Session.GetString("UserRole") == "Admin")
+{ 
+}
+else if (HttpContextAccessor.HttpContext.Session.GetString("UserRole") == "User")
+{
+   <h1>Hello</h1>
+}
+else
+{
+    <div>
+        <p>Please <a href="@Url.Action("Login", "Home")">log in</a> to access more features.</p>
+    </div>
+}

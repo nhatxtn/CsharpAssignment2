@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E56E2BA7-6222-4B19-B8ED-40010EA7C70D}|eBookStore\\eBookStore.csproj|c:\\users\\admin\\source\\repos\\assigment02solution_studentcode\\ebookstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56E2BA7-6222-4B19-B8ED-40010EA7C70D}|eBookStore\\eBookStore.csproj|solutionrelative:ebookstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56E2BA7-6222-4B19-B8ED-40010EA7C70D}|eBookStore\\eBookStore.csproj|c:\\users\\admin\\source\\repos\\assigment02solution_studentcode\\ebookstore\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E56E2BA7-6222-4B19-B8ED-40010EA7C70D}|eBookStore\\eBookStore.csproj|solutionrelative:ebookstore\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56E2BA7-6222-4B19-B8ED-40010EA7C70D}|eBookStore\\eBookStore.csproj|C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\ebookstore\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56E2BA7-6222-4B19-B8ED-40010EA7C70D}|eBookStore\\eBookStore.csproj|solutionrelative:ebookstore\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E831857E-FFF4-45CB-B462-569138E4FD5B}|eBookStoreWebAPI\\eBookStoreWebAPI.csproj|c:\\users\\admin\\source\\repos\\assigment02solution_studentcode\\ebookstorewebapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E831857E-FFF4-45CB-B462-569138E4FD5B}|eBookStoreWebAPI\\eBookStoreWebAPI.csproj|solutionrelative:ebookstorewebapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E831857E-FFF4-45CB-B462-569138E4FD5B}|eBookStoreWebAPI\\eBookStoreWebAPI.csproj|c:\\users\\admin\\source\\repos\\assigment02solution_studentcode\\ebookstorewebapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E831857E-FFF4-45CB-B462-569138E4FD5B}|eBookStoreWebAPI\\eBookStoreWebAPI.csproj|solutionrelative:ebookstorewebapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56E2BA7-6222-4B19-B8ED-40010EA7C70D}|eBookStore\\eBookStore.csproj|c:\\users\\admin\\source\\repos\\assigment02solution_studentcode\\ebookstore\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E56E2BA7-6222-4B19-B8ED-40010EA7C70D}|eBookStore\\eBookStore.csproj|solutionrelative:ebookstore\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStore\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "eBookStore\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStore\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "eBookStore\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAwwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T15:42:02.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStore\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "eBookStore\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStore\\Controllers\\UserController.cs",
+              "RelativeToolTip": "eBookStore\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAUwDgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:41:14.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStoreWebAPI\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "eBookStoreWebAPI\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStoreWebAPI\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "eBookStoreWebAPI\\Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:41:08.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStoreWebAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "eBookStoreWebAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStoreWebAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "eBookStoreWebAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:37:10.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStore\\Views\\Author\\Index.cshtml",
+              "RelativeDocumentMoniker": "eBookStore\\Views\\Author\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStore\\Views\\Author\\Index.cshtml",
+              "RelativeToolTip": "eBookStore\\Views\\Author\\Index.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwCMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T09:21:33.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStore\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "eBookStore\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Assigment02Solution_StudentCode\\eBookStore\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "eBookStore\\Controllers\\AuthorController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T09:20:13.253Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

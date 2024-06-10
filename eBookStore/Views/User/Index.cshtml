@@ -1,0 +1,90 @@
+﻿@using X.PagedList.Mvc.Core
+@using X.PagedList
+@model IPagedList<BusinessObject.User>
+
+@{
+    ViewData["Title"] = "User Index";
+}
+
+<h1>User Index</h1>
+
+<form asp-action="Index" method="get">
+    <div class="form-inline mb-3">
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="emailSearch" class="sr-only">Email</label>
+            <input type="text" name="emailSearch" class="form-control" placeholder="Search by Email" value="@ViewData["CurrentFilter_Email"]" />
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="firstNameSearch" class="sr-only">First Name</label>
+            <input type="text" name="firstNameSearch" class="form-control" placeholder="Search by First Name" value="@ViewData["CurrentFilter_FirstName"]" />
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="middleNameSearch" class="sr-only">Middle Name</label>
+            <input type="text" name="middleNameSearch" class="form-control" placeholder="Search by Middle Name" value="@ViewData["CurrentFilter_MiddleName"]" />
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="lastNameSearch" class="sr-only">Last Name</label>
+            <input type="text" name="lastNameSearch" class="form-control" placeholder="Search by Last Name" value="@ViewData["CurrentFilter_LastName"]" />
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="citySearch" class="sr-only">City</label>
+            <input type="text" name="citySearch" class="form-control" placeholder="Search by City" value="@ViewData["CurrentFilter_City"]" />
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="sortOrder" class="sr-only">Sort By</label>
+            <select name="sortOrder" class="form-control">
+                <option value="">Select...</option>
+                <option value="EmailAddress asc">Email Address Ascending</option>
+                <option value="EmailAddress desc">Email Address Descending</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Search</button>
+    </div>
+</form>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().EmailAddress)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().FirstName)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().MiddleName)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().LastName)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Publisher.City)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => user.EmailAddress)</td>
+                <td>@Html.DisplayFor(modelItem => user.FirstName)</td>
+                <td>@Html.DisplayFor(modelItem => user.MiddleName)</td>
+                <td>@Html.DisplayFor(modelItem => user.LastName)</td>
+                <td>@(user.Publisher != null ? user.Publisher.City : "")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@user.UserId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@user.UserId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@user.UserId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="pagination">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new
+        {
+            page,
+            sortOrder = ViewData["CurrentSort"],
+            emailSearch = ViewData["CurrentFilter_Email"],
+            firstNameSearch = ViewData["CurrentFilter_FirstName"],
+            middleNameSearch = ViewData["CurrentFilter_MiddleName"],
+            lastNameSearch = ViewData["CurrentFilter_LastName"],
+            citySearch = ViewData["CurrentFilter_City"]
+        }))
+</div>
