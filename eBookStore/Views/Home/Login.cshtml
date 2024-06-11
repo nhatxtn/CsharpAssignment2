@@ -4,29 +4,36 @@
 }
 
 <strong>eBookStore</strong>
-<div class="card col-md-3 p-2">
-    <form asp-action="Login" method="post">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="form-group">
-            <label>Email</label>
-            <input name="username" class="form-control" required />
+<div class="container">
+    <div class="row">
+        <div class="card col-md-3 p-2">
+            <form asp-action="Login" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input name="username" class="form-control" required />
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input name="password" type="password" class="form-control" required />
+                    <span class="text-danger"></span>
+                </div>
+                @if (loginErr != null)
+                {
+                    <strong style="color:red">
+                        @loginErr
+                    </strong>
+                }
+                <div class="form-group">
+                    <input type="submit" value="Login" class="btn btn-primary" />
+                </div>
+            </form>
+            <div class="form-group">
+                <a href="@Url.Action("Register", "Home")" class="btn btn-secondary">Register</a>
+            </div>
         </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input name="password" type="password" class="form-control" required />
-            <span class="text-danger"></span>
+        <div class="col-md-9 p-2">
+            <img src="~/imgs/anhbiasach.png" style="max-width: 300px; max-height: 300px" />
         </div>
-        @if (loginErr != null)
-        {
-            <strong style="color:red">
-                @loginErr
-            </strong>
-        }
-        <div class="form-group">
-            <input type="submit" value="Login" class="btn btn-primary" />
-        </div>
-    </form>
-    <div class="form-group">
-        <a href="@Url.Action("Register", "Home")" class="btn btn-secondary">Register</a>
     </div>
 </div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1PAXp5FeayfryFOiPUGW5UKA/040/vcEz/CpaDWeAgztSBZbYqAadBSK9/Vru3+lxVOQKLHqnEtuzPhXLM06bQ==",
+  "dgSpecHash": "SGHMAMo5wmBvK3GYzcmeVyhPF0ABqQrRyuYUEqx0YxAy2DEgz1TVFWQw4/ZbfRajZjQFaYbEjxCIRaL4z966hw==",
   "success": true,
-  "projectFilePath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -103,10 +103,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

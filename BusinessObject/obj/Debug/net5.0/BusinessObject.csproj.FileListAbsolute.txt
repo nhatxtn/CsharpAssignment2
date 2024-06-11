@@ -21,3 +21,15 @@ D:\Assigment02Solution_StudentCode\Assigment02Solution_StudentCode\BusinessObjec
 D:\Assigment02Solution_StudentCode\Assigment02Solution_StudentCode\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
 D:\Assigment02Solution_StudentCode\Assigment02Solution_StudentCode\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
 D:\Assigment02Solution_StudentCode\Assigment02Solution_StudentCode\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\obj\Debug\net5.0\BusinessObject.sourcelink.json
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\ASUS\Desktop\PRN231\CsharpAssignment2\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll

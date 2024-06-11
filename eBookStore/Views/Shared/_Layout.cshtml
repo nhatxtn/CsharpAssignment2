@@ -10,70 +10,84 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+    <style>
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            padding: 58px 0 0; /* Height of navbar */
+            box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+            width: 240px;
+            z-index: 600;
+        }
+
+        @@media (max-width: 991.98px) {
+            .sidebar {
+                width: 100%;
+            }
+        }
+
+        .sidebar .active {
+            border-radius: 5px;
+            box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+        }
+
+        .sidebar-sticky {
+            position: relative;
+            top: 0;
+            height: calc(100vh - 48px);
+            padding-top: 0.5rem;
+            overflow-x: hidden;
+        }
+    </style>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">eBookStore</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>                       
-                        @if (HttpContextAccessor.HttpContext.Session.GetString("UserRole") != null && HttpContextAccessor.HttpContext.Session.GetString("UserRole") == "Admin")
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">User</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Author" asp-action="Index">Author</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Publisher" asp-action="Index">Publisher</a>
-                            </li>
-                            <li>
-                                <form asp-action="Logout" asp-controller="Home" method="post" class="form-inline">
-                                    <button type="submit" class="btn btn-link navbar-btn">Logout</button>
-                                    @Html.AntiForgeryToken()
-                                </form>
-                            </li>
-                        }
-                        else if (HttpContextAccessor.HttpContext.Session.GetString("UserRole") != null && HttpContextAccessor.HttpContext.Session.GetString("UserRole") == "User")
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Author" asp-action="Index">Author</a>
-                            </li>
-                            <li>
-                                <form asp-action="Logout" asp-controller="Home" method="post" class="form-inline">
-                                    <button type="submit" class="btn btn-link navbar-btn">Logout</button>
-                                    @Html.AntiForgeryToken()
-                                </form>
-                            </li>
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
-                            </li>
-                        }                     
-                  </ul>
+        <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-dark">
+            <div class="position-sticky">
+                <a class="navbar-brand pl-3" asp-area="" asp-controller="Home" asp-action="Index">eBookStore</a>
+                <div class="list-group list-group-flush mx-3 mt-4">
+
+                    <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+                    @if (HttpContextAccessor.HttpContext.Session.GetString("UserRole") != null && HttpContextAccessor.HttpContext.Session.GetString("UserRole") == "Admin")
+                    {
+                        <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Index">User</a>
+                        <a class="nav-link text-light" asp-area="" asp-controller="Author" asp-action="Index">Author</a>
+                        <a class="nav-link text-light" asp-area="" asp-controller="Publisher" asp-action="Index">Publisher</a>
+                        <form asp-action="Logout" asp-controller="Home" method="post" class="form-inline">
+                            <button type="submit" class="btn btn-link text-light navbar-btn">Logout</button>
+                            @Html.AntiForgeryToken()
+                        </form>
+                    }
+                    else if (HttpContextAccessor.HttpContext.Session.GetString("UserRole") != null && HttpContextAccessor.HttpContext.Session.GetString("UserRole") == "User")
+                    {
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Author" asp-action="Index">Author</a>
+                        <form asp-action="Logout" asp-controller="Home" method="post" class="form-inline">
+                            <button type="submit" class="btn btn-link navbar-btn">Logout</button>
+                            @Html.AntiForgeryToken()
+                        </form>
+                    }
+                    else
+                    {
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
+                    }
+
                 </div>
             </div>
         </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
+    </header>
+
+    <main role="main" style="padding-left:240px">
+        <div class="container" style="padding-top: 20px; padding-left:20px">
+            @RenderBody()
+        </div>
+    </main>
+
+
+    <footer style="padding-left:240px" class="border-top footer text-muted">
         <div class="container">
             &copy; 2024 - eBookStore - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>

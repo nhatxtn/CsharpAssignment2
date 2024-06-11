@@ -10642,11 +10642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\eBookStore\\eBookStore.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\eBookStore\\eBookStore.csproj",
       "projectName": "eBookStore",
-      "projectPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\eBookStore\\eBookStore.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\eBookStore\\eBookStore.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\eBookStore\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\eBookStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10663,11 +10663,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\BusinessObject\\BusinessObject.csproj"
             },
-            "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\DataAccess\\DataAccess.csproj"
             }
           }
         }
@@ -10720,7 +10720,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
