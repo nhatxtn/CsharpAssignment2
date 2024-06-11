@@ -6205,11 +6205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6226,11 +6226,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\BusinessObject\\BusinessObject.csproj"
             },
-            "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\DataAccess\\DataAccess.csproj"
             }
           }
         }
@@ -6255,26 +6255,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

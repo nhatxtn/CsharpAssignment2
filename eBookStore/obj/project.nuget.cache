@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vQinn6ziZvm9FcvhlDEoYWvdeKhAkotQqL80MsTb1PAUt7SVHPoVX/FzHLwVcFxg/7WHGa/hIyTl8q+Bd+DN3A==",
+  "dgSpecHash": "SZjQ7pUS7yBceqpidkXl3q32h4uRP23avgtYgEu81qCtkCupBaVqnoVkthLMTRkvu5fybLXMncydSel0S6qunQ==",
   "success": true,
-  "projectFilePath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\eBookStore\\eBookStore.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\eBookStore\\eBookStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.0.0\\microsoft.aspnetcore.antiforgery.2.0.0.nupkg.sha512",

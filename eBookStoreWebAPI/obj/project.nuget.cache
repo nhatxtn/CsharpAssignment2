@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iJ7AXP5koZMcplTdJmTuj8XSf0/g4mf5XmPnvcKdcX71paa3J8Ckm2wKxp19Tt0GhWPRCHrKgn1DcKlxZ/hIkw==",
+  "dgSpecHash": "2E6VsNr0/zWfTwDe0sbUiFuEJoJAWz9y4yx3EP57AysZ3iBZvn9QnlAbGcrtphNA7D8s2SPBZku80qm/A8q77A==",
   "success": true,
-  "projectFilePath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\eBookStoreWebAPI\\eBookStoreWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\eBookStoreWebAPI\\eBookStoreWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.odata\\8.1.0\\microsoft.aspnetcore.odata.8.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\BusinessObject\\BusinessObject.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Assigment02Solution_StudentCode\\Assigment02Solution_StudentCode\\BusinessObject\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\PRN231\\CsharpAssignment2\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.106\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -112,7 +112,7 @@ namespace eBookStore.Controllers
                     FirstName = firstName,
                     LastName = lastName,
                     RoleId = 1,
-                    PubId = _random.Next(1, 11),
+                    PubId = _random.Next(1, 3),
                     HireDate = DateTime.Now
                 };
 
